@@ -59,3 +59,139 @@
   align-items: center;
   flex-wrap: wrap;
 }
+
+
+/* Header style */
+.header {
+}
+
+/* Nav style */
+.nav,
+.nav-text,
+.nav-item ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  justify-content: space-between;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  margin: 0 12.5%;
+}
+
+.nav-item > ul > li {
+  margin: 10px;
+}
+
+.nav-item li {
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #3c354f;
+  font-size: 1.12rem;
+  font-weight: 500;
+}
+
+.nav-item-2 {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 16px 24px;
+}
+
+.nav-text,
+.nav-item-2 li {
+  margin: 0 10px;
+}
+
+.nav-text {
+  color: var(--black);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.nav-text span {
+  color: #ff42a5;
+}
+
+.header-feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--light-blue);
+  padding: 0 12.5%;
+}
+
+.header-text {
+  width: 55%;
+  height: 100%;
+  background: conic-gradient(
+      from 90deg at 95% top,
+      #fff 0deg,
+      #fff 135deg,
+      #f8fafde3 0
+    )
+    100%/100% 33%;
+}
+
+.header-text h3 {
+  color: var(--black);
+  font-family: Work Sans;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.header-text h2 {
+  background: linear-gradient(#f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 5.5rem;
+  font-style: normal;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.header-image {
+  width: 45%;
+  padding: 20px 0;
+}
+
+.header-image img {
+  width: 100%;
+}
+
+.header-text i {
+  margin-right: 10px;
+}
+
+.header-button {
+  margin-top: 40px;
+  display: flex;
+}
+
+.purple-btn {
+  color: var(--backgroud);
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.blue-btn {
+  color: var(--backgroud);
+  padding: 21px 40px;
+  border-radius: 48px;
+  background: #4ec5f7;
+  margin-left: 24px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
